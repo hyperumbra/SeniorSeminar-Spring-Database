@@ -1,0 +1,69 @@
+﻿@model LaxWebApplication.Models.GameEvents
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>GameEvents</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Team" class="control-label"></label>
+                <input asp-for="Team" class="form-control" />
+                <span asp-validation-for="Team" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventType" class="control-label"></label>
+                <input asp-for="EventType" class="form-control" />
+                <span asp-validation-for="EventType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PenaltyType" class="control-label"></label>
+                <input asp-for="PenaltyType" class="form-control" />
+                <span asp-validation-for="PenaltyType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ActingTeamMemberNumber" class="control-label"></label>
+                <input asp-for="ActingTeamMemberNumber" class="form-control" />
+                <span asp-validation-for="ActingTeamMemberNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AssistingTeamMember" class="control-label"></label>
+                <input asp-for="AssistingTeamMember" class="form-control" />
+                <span asp-validation-for="AssistingTeamMember" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HomeScore" class="control-label"></label>
+                <input asp-for="HomeScore" class="form-control" />
+                <span asp-validation-for="HomeScore" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VisitorScore" class="control-label"></label>
+                <input asp-for="VisitorScore" class="form-control" />
+                <span asp-validation-for="VisitorScore" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PenaltyTime" class="control-label"></label>
+                <input asp-for="PenaltyTime" class="form-control" />
+                <span asp-validation-for="PenaltyTime" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="EventTime" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

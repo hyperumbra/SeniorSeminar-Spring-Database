@@ -1,0 +1,11 @@
+C:\Users\Soarin\Desktop\code\Ayyyyyyyyyyyyyyyyyyyyyy\LaxWebApplication\bin\Debug\netcoreapp2.0\LaxWebApplication.deps.json
+C:\Users\Soarin\Desktop\code\Ayyyyyyyyyyyyyyyyyyyyyy\LaxWebApplication\bin\Debug\netcoreapp2.0\LaxWebApplication.runtimeconfig.json
+C:\Users\Soarin\Desktop\code\Ayyyyyyyyyyyyyyyyyyyyyy\LaxWebApplication\bin\Debug\netcoreapp2.0\LaxWebApplication.runtimeconfig.dev.json
+C:\Users\Soarin\Desktop\code\Ayyyyyyyyyyyyyyyyyyyyyy\LaxWebApplication\bin\Debug\netcoreapp2.0\LaxWebApplication.dll
+C:\Users\Soarin\Desktop\code\Ayyyyyyyyyyyyyyyyyyyyyy\LaxWebApplication\bin\Debug\netcoreapp2.0\LaxWebApplication.pdb
+C:\Users\Soarin\Desktop\code\Ayyyyyyyyyyyyyyyyyyyyyy\LaxWebApplication\obj\Debug\netcoreapp2.0\LaxWebApplication.csprojResolveAssemblyReference.cache
+C:\Users\Soarin\Desktop\code\Ayyyyyyyyyyyyyyyyyyyyyy\LaxWebApplication\obj\Debug\netcoreapp2.0\LaxWebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Soarin\Desktop\code\Ayyyyyyyyyyyyyyyyyyyyyy\LaxWebApplication\obj\Debug\netcoreapp2.0\LaxWebApplication.AssemblyInfoInputs.cache
+C:\Users\Soarin\Desktop\code\Ayyyyyyyyyyyyyyyyyyyyyy\LaxWebApplication\obj\Debug\netcoreapp2.0\LaxWebApplication.AssemblyInfo.cs
+C:\Users\Soarin\Desktop\code\Ayyyyyyyyyyyyyyyyyyyyyy\LaxWebApplication\obj\Debug\netcoreapp2.0\LaxWebApplication.dll
+C:\Users\Soarin\Desktop\code\Ayyyyyyyyyyyyyyyyyyyyyy\LaxWebApplication\obj\Debug\netcoreapp2.0\LaxWebApplication.pdb

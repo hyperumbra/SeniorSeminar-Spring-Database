@@ -1,0 +1,77 @@
+﻿@model IEnumerable<LaxWebApplication.Models.GameEvents>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Team)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EventType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PenaltyType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ActingTeamMemberNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AssistingTeamMember)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HomeScore)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.VisitorScore)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PenaltyTime)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Team)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PenaltyType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActingTeamMemberNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssistingTeamMember)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HomeScore)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VisitorScore)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PenaltyTime)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.EventTime">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.EventTime">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.EventTime">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
